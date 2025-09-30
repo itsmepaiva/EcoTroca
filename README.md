@@ -75,10 +75,14 @@ A arquitetura proposta seguirá um modelo de três camadas (Three-Tier Architect
 
 
 ## Integrantes
-Domingos Sávio de Paiva Barbosa Júnior
+- Domingos Sávio de Paiva Barbosa Júnior
 
-Nicolas de Oliveira Duarte
+-Filipe Victor Braga Da Costa
 
-Rodolfo Pacheco Paula Bittencourt
+-Nicolas de Oliveira Duarte
 
-Sávio Almeida Melo
+-Rodolfo Pacheco Paula Bittencourt
+
+-Sávio Almeida Melo
+
+-Yan Levi Leal Chagas
