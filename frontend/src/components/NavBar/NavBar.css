@@ -1,0 +1,143 @@
+/* Container principal */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: white;
+    border-bottom: 1px solid #eee;
+    z-index: 10;
+}
+
+/* Logo */
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.img-logo {
+    height: 32px;
+    width: auto;
+}
+
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #866C6C;
+    /* tom parecido com a imagem */
+}
+
+/* Links */
+.navbar-links {
+    display: flex;
+    gap: 32px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #008000;
+}
+
+/* Botão login */
+.btn-login {
+    background-color: #2e7d32;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    margin-right: 16px;
+}
+
+.btn-login:hover {
+    background-color: transparent;
+    color: #2e7d32;
+    border: 1px solid #2e7d32;
+}
+
+/* Perfil */
+.img-perfil {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 2px solid #2e7d32;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* ==========================
+   RESPONSIVIDADE COM ALINHAMENTO PERFEITO
+   (Nada quebra, tudo fica em linha)
+========================== */
+@media (max-width: 502px) {
+
+    /* Nunca deixa quebrar linha */
+    .navbar {
+        flex-wrap: nowrap !important;
+        gap: 6px !important;
+        padding: 10px 8px !important;
+        height: 50px !important;
+    }
+
+    /* Remove logo para liberar espaço */
+    .navbar-logo {
+        display: none !important;
+    }
+
+    /* LINKS sempre em linha, sem quebrar */
+    .navbar-links {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-wrap: nowrap !important;
+        gap: 10px !important;
+        white-space: nowrap !important;
+        flex-shrink: 1 !important;
+    }
+
+    /* Deixa os textos mais compactos */
+    .navbar-links a {
+        font-size: 12px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        white-space: nowrap !important;
+    }
+
+    /* LOGIN + PERFIL SEMPRE EM ALINHAMENTO HORIZONTAL */
+    .navbar-actions {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 4px !important;
+        flex-wrap: nowrap !important;
+        flex-shrink: 0 !important;  /* evita empurrar o login para baixo */
+    }
+
+    /* Botão de Login compacto */
+    .btn-login {
+        padding: 3px 8px !important;
+        font-size: 11px !important;
+        margin: 0 !important;
+        white-space: nowrap !important;
+    }
+
+    /* Ícone de perfil compacto */
+    .img-perfil {
+        width: 24px !important;
+        height: 24px !important;
+        margin: 0 !important;
+    }
+}

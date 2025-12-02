@@ -1,0 +1,107 @@
+/* ================================
+   MOBILE - até 768px (tablets/celulares)
+   ================================ */
+@media (max-width: 768px) {
+
+    .section-home {
+        padding: 40px 0;
+    }
+
+    /* HERO */
+    .hero .text-troca {
+        text-align: center;
+    }
+    .hero .text-troca h2 {
+        font-size: 1.8rem;
+    }
+    .hero .text-troca p {
+        font-size: 0.95rem;
+        padding: 0 10px;
+    }
+    .hero .btn-objetos {
+        width: 100%;
+        padding: 12px 0;
+    }
+    .hero .img-hero {
+        max-width: 260px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* POPULARES */
+    .populares .card-popular {
+        width: 90%;
+        margin: 0 auto 25px auto;
+    }
+
+    .carousel-item .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .carousel-item .col-md-4 {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .imgClassItem {
+        width: 110px;
+        height: auto;
+    }
+
+    /* COMENTÁRIOS */
+    .comentarios .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .comentarios .card-comentario {
+        width: 95%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .comentarios .img-comentario {
+        margin-bottom: 10px;
+    }
+
+    /* SOBRE */
+    .img-sobre {
+        max-width: 260px;
+        margin: 20px auto;
+    }
+    .sobre h2 {
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .sobre p {
+        text-align: center;
+        padding: 0 10px;
+    }
+}
+
+/* CELULARES MUITO PEQUENOS (até 480px) */
+@media (max-width: 480px) {
+
+    .hero .text-troca h2 {
+        font-size: 1.55rem;
+    }
+
+    .hero .img-hero {
+        max-width: 200px;
+    }
+
+    .populares .card-popular {
+        width: 95%;
+    }
+
+    .comentarios p {
+        font-size: 0.9rem;
+    }
+
+    .img-sobre {
+        max-width: 220px;
+    }
+}
