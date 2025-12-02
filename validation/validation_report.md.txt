@@ -1,0 +1,55 @@
+# Relatório de Validação – Aplicativo EcoTroca  
+*(Disciplina N708 – Projeto Aplicado Multiplataforma)*
+
+## 1. Identificação do Público-Alvo
+A validação ocorreu com funcionários e alunos do Curso de Direito da UNIFOR, especialmente vinculados ao projeto *Cidadania Ativa* e às disciplinas de Direito Ambiental e público externo interessado.  
+
+Uma lista de participantes com autorizações consta em `validation/target_audience.md`.
+
+## 2. Contato e Apresentação do Projeto
+Foram realizadas reuniões presenciais e videochamadas demonstrando:
+- Cadastro de itens  
+- Listagem de itens  
+- Proposta de troca  
+- Navegação do protótipo  
+
+As evidências foram anexadas em:
+- `validation/evidence/autorizacoes/`  
+- `validation/evidence/fotos/`
+
+## 3. Validação das Funcionalidades
+
+### 3.1 Compreensão da Proposta
+A maioria relatou entender claramente a finalidade do EcoTroca.
+
+### 3.2 Utilidade Percebida
+A solução foi avaliada como **útil** ou **muito útil** pela maioria dos participantes.
+
+### 3.3 Avaliação das Funcionalidades
+As funcionalidades centrais receberam notas entre **4 e 5**, indicando boa aceitação.
+
+### 3.4 Sugestões Recebidas
+Entre as recomendações:
+- geolocalização;  
+- sistema de pontos;  
+- categorias mais específicas;  
+- possibilidade de doações;  
+- filtros avançados de busca;  
+- inclusão de troca de serviços.
+
+### 3.5 Ajustes Implementados
+Com base na validação:
+- Interface refinada;  
+- Texto de instruções ajustado;  
+- Categorias reorganizadas;  
+- Planejamento de futuras integrações de geolocalização.
+
+## 4. Documentação da Validação
+- Questionário completo salvo em `validation/feedback/respostas_questionario.pdf`  
+- Autorizações anexadas  
+- Fotos das interações anexadas  
+- Processo descrito nesta pasta  
+
+## 5. Conclusão
+A validação confirmou que o EcoTroca atende necessidades reais do público e está alinhado ao ODS 11.  
+O aplicativo demonstrou potencial concreto como ferramenta sustentável, socialmente relevante e promissora para futuras evoluções.

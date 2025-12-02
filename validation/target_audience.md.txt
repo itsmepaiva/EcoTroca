@@ -1,0 +1,36 @@
+# Público-Alvo Específico – Validação do Aplicativo EcoTroca
+
+A validação do sistema EcoTroca foi realizada com um público-alvo **específico, identificado e institucional**, conforme exigido pela disciplina N708.
+
+## 1. Identificação do Público-Alvo
+O público-alvo pertence ao **Curso de Direito da Universidade de Fortaleza – UNIFOR**, incluindo:
+
+- Funcionários administrativos do Curso de Direito  
+- Alunos do Curso de Direito  
+- Participantes do Projeto de Extensão *Cidadania Ativa*  
+- Alunos das disciplinas de *Direito Ambiental*
+
+## 2. Pessoas que participaram diretamente
+Com autorizações formais assinadas, participaram:
+
+- Thyago Teixeira Clemente – Engenheiro de Software - Públixo Externo
+- Liana Pacheco Bittencourt – Oceanógrafa da Marinha do Brasil UNIFOR  
+- Natália Lopes Cunha – Funcionária UNIFOR  
+- George César – Funcionário UNIFOR  
+- Felipe Pereira – Funcionário UNIFOR  
+- Jeovah Neto – Funcionário UNIFOR  
+
+As autorizações respectivas estão inseridas na pasta `validation/evidence/autorizacoes/`.
+
+## 3. Localização exata
+UNIFOR – Universidade de Fortaleza  
+Av. Washington Soares, 1321 – Edson Queiroz, Fortaleza – CE  
+
+## 4. Contexto e necessidades específicas
+O grupo apresenta forte interesse em:
+- tecnologias de impacto social;  
+- soluções sustentáveis alinhadas ao ODS 11;  
+- economia circular e reaproveitamento de objetos;  
+- práticas comunitárias e cidadania ativa.
+
+O EcoTroca atende essas necessidades ao propor trocas sustentáveis e sem desperdício.
